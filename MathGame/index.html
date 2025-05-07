@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Math Quiz</h1>
+
+        <div id="score-area">
+            Score: <span id="current-score">0</span>
+        </div>
+
+        <div id="question-area">
+            <p id="question-text">Loading question...</p>
+        </div>
+
+        <div id="options-area">
+            <button class="option-btn"></button>
+            <button class="option-btn"></button>
+            <button class="option-btn"></button>
+            <button class="option-btn"></button>
+        </div>
+
+        <div id="feedback-area">
+            <p id="feedback-text"></p>
+        </div>
+
+        <button id="next-question-btn" style="display: none;">Next Question</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
